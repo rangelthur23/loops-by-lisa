@@ -1,9 +1,9 @@
 (() => {
   const style = document.createElement('style');
   style.textContent = `
-    .header-inner { min-height: 64px !important; padding-top: 4px !important; padding-bottom: 4px !important; }
-    .site-header .brand-image-link { width: 52px !important; height: 52px !important; flex: 0 0 52px !important; overflow: visible !important; }
-    .site-header .brand-logo { width: 52px !important; max-width: 52px !important; height: 52px !important; max-height: 52px !important; object-fit: contain !important; }
+    .header-inner { min-height: 82px !important; padding-top: 4px !important; padding-bottom: 4px !important; }
+    .site-header .brand-image-link { width: 78px !important; height: 78px !important; flex: 0 0 78px !important; overflow: visible !important; }
+    .site-header .brand-logo { width: 78px !important; max-width: 78px !important; height: 78px !important; max-height: 78px !important; object-fit: contain !important; }
     .hero-logo { display: none !important; }
     .hero { padding-top: 28px !important; }
     .mobile-nav { padding: 4px 32px 18px !important; }
