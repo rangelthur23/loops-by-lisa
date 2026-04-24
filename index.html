@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Loops by Lisa creates custom handcrafted bracelets, keychains, lanyards, dog collars, decorations, and braided cord keepsakes made with beads and charms." />
+  <title>Loops by Lisa | Handcrafted Loops, Braids, and Keepsakes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" aria-label="Primary site header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Loops by Lisa home">
+        <span class="brand-main">Loops</span>
+        <span class="brand-sub">by Lisa</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#story">Story</a>
+        <a href="#craftsmanship">Craftsmanship</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#inquire">Inquire</a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="sr-only">Open menu</span>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#story">Story</a>
+      <a href="#craftsmanship">Craftsmanship</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#inquire">Inquire</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="story" class="hero section-soft">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Custom cord, beads, and charms</p>
+          <h1>Handcrafted loops, braids, and keepsakes.</h1>
+          <div class="gold-rule" aria-hidden="true"><span></span></div>
+          <p class="lead">Every piece is thoughtfully handmade by Lisa to reflect your story, your style, and the little things that matter. From bracelets and keychains to lanyards, dog collars, decorations, and more, each creation is made with care and a whole lot of heart.</p>
+          <a class="button-primary" href="#inquire">Inquire About a Custom Piece</a>
+        </div>
+        <div class="hero-art photo-placeholder" role="img" aria-label="Placeholder for a featured photo of Lisa's handcrafted braided items">
+          <div>
+            <strong>Featured Lisa-made photo</strong>
+            <span>Add a real product photo here</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="craftsmanship" class="craft section">
+      <div class="container craft-grid">
+        <div class="photo-placeholder workbench" role="img" aria-label="Placeholder for a close-up workbench photo of cord, beads, charms, and finished pieces">
+          <div>
+            <strong>Craftsmanship photo</strong>
+            <span>Close-up of cords, beads, charms, and finished pieces</span>
+          </div>
+        </div>
+        <div class="craft-copy">
+          <p class="eyebrow centered-mobile">Crafted with care</p>
+          <h2>The Loops by Lisa Difference</h2>
+          <div class="feature-list">
+            <article class="feature">
+              <span class="feature-icon" aria-hidden="true">◇</span>
+              <div>
+                <h3>Quality Materials</h3>
+                <p>Premium cords, beads, charms, and findings chosen for beauty, comfort, and durability.</p>
+              </div>
+            </article>
+            <article class="feature">
+              <span class="feature-icon" aria-hidden="true">♡</span>
+              <div>
+                <h3>Made by Hand</h3>
+                <p>Every loop, braid, and knot is handcrafted by Lisa. Never mass produced.</p>
+              </div>
+            </article>
+            <article class="feature">
+              <span class="feature-icon" aria-hidden="true">✦</span>
+              <div>
+                <h3>Custom Details</h3>
+                <p>Your colors, your style, your story. Custom pieces are designed to feel personal and useful.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Gallery</p>
+          <h2>Lisa’s handcrafted work</h2>
+          <p>Replace these cards with real photos as pieces are finished and photographed.</p>
+        </div>
+        <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="inquire" class="inquire section">
+      <div class="container inquire-grid">
+        <div class="inquire-copy">
+          <p class="eyebrow">Let’s create something beautiful</p>
+          <h2>Inquire About Your Custom Piece</h2>
+          <p>Share the item type, colors, size, charm ideas, and any deadline. Inspiration photos are welcome when you reach out.</p>
+          <p class="small-note">Note: handmade pieces may vary slightly. That is part of the character of custom work.</p>
+        </div>
+        <form class="inquiry-form" id="inquiry-form">
+          <label>
+            <span>Name</span>
+            <input name="name" autocomplete="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            <span>Item type</span>
+            <select name="item">
+              <option>Bracelet</option>
+              <option>Keychain</option>
+              <option>Lanyard</option>
+              <option>Dog collar</option>
+              <option>Decoration</option>
+              <option>Other custom piece</option>
+            </select>
+          </label>
+          <label>
+            <span>Color ideas</span>
+            <input name="colors" placeholder="Pink, sage, lilac, cream..." />
+          </label>
+          <label class="full">
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Tell Lisa what you have in mind..." required></textarea>
+          </label>
+          <button class="button-primary" type="submit">Send Inquiry</button>
+          <p class="form-note" id="form-note">This opens your email app so you can review before sending.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <a class="brand footer-brand" href="#top" aria-label="Loops by Lisa home">
+        <span class="brand-main">Loops</span>
+        <span class="brand-sub">by Lisa</span>
+      </a>
+      <p>Handcrafted loops, braids, and keepsakes made with care.</p>
+      <p><a href="mailto:hello@loopsbylisa.com">hello@loopsbylisa.com</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
