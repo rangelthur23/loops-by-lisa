@@ -1,0 +1,98 @@
+/* Logo layout fix: keeps the round badge elegant without letting it dominate mobile screens. */
+
+.site-header {
+  min-height: auto;
+}
+
+.header-inner {
+  min-height: 82px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.site-header .brand-image-link {
+  width: 82px;
+  height: 82px;
+  flex: 0 0 82px;
+  overflow: visible;
+}
+
+.site-header .brand-logo {
+  width: 82px;
+  max-width: 82px;
+  height: 82px;
+  max-height: 82px;
+  object-fit: contain;
+}
+
+.hero-logo {
+  width: min(220px, 58vw);
+  margin-bottom: 18px;
+}
+
+.mobile-nav {
+  padding: 4px 32px 18px;
+}
+
+.mobile-nav a {
+  font-size: 1.15rem;
+  padding: 12px 0;
+}
+
+@media (max-width: 860px) {
+  .header-inner {
+    min-height: 76px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .site-header .brand-image-link {
+    width: 70px;
+    height: 70px;
+    flex-basis: 70px;
+  }
+
+  .site-header .brand-logo {
+    width: 70px;
+    max-width: 70px;
+    height: 70px;
+    max-height: 70px;
+  }
+
+  .menu-button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .hero {
+    padding-top: 34px;
+  }
+
+  .hero-logo {
+    width: min(210px, 56vw);
+    margin: 0 0 16px;
+  }
+}
+
+@media (max-width: 470px) {
+  .header-inner {
+    min-height: 70px;
+  }
+
+  .site-header .brand-image-link {
+    width: 62px;
+    height: 62px;
+    flex-basis: 62px;
+  }
+
+  .site-header .brand-logo {
+    width: 62px;
+    max-width: 62px;
+    height: 62px;
+    max-height: 62px;
+  }
+
+  .hero-logo {
+    width: min(190px, 54vw);
+  }
+}
