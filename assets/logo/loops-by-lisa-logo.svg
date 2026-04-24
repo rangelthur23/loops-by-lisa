@@ -1,1 +1,8 @@
-__WILL_FILL__
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 260" role="img" aria-label="Loops by Lisa logo">
+  <title>Loops by Lisa logo</title>
+  <rect width="840" height="260" fill="none"/>
+  <text x="28" y="150" fill="#111111" font-family="Cormorant Garamond, Georgia, serif" font-size="156" font-style="italic" font-weight="700" letter-spacing="-8">Loops</text>
+  <text x="490" y="185" fill="#111111" font-family="Cormorant Garamond, Georgia, serif" font-size="72" font-style="italic" font-weight="600">by Lisa</text>
+  <path d="M23 172 C130 210, 285 206, 418 177" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
+  <path d="M544 196 C632 228, 739 218, 815 200" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+</svg>
