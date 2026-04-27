@@ -1,6 +1,10 @@
 (() => {
   const style = document.createElement('style');
   style.textContent = `
+    html {
+      scroll-behavior: smooth;
+    }
+
     .header-inner {
       min-height: 68px !important;
       padding-top: 8px !important;
@@ -26,12 +30,58 @@
       display: block !important;
     }
 
+    .logo-intro {
+      min-height: calc(100svh - 68px) !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 32px 0 42px !important;
+      border-bottom: 1px solid rgba(196, 162, 83, 0.28) !important;
+    }
+
+    .logo-intro-inner {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      text-align: center !important;
+      gap: 24px !important;
+    }
+
+    .intro-badge-logo {
+      width: min(620px, 84vw) !important;
+      max-height: 68svh !important;
+      object-fit: contain !important;
+      display: block !important;
+    }
+
+    .scroll-cue {
+      display: inline-flex !important;
+      flex-direction: column !important;
+      gap: 4px !important;
+      text-decoration: none !important;
+      color: inherit !important;
+    }
+
+    .scroll-cue span {
+      color: #a67c21 !important;
+      font-size: 0.8rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.18em !important;
+      text-transform: uppercase !important;
+    }
+
+    .scroll-cue strong {
+      font-size: 0.95rem !important;
+      font-weight: 500 !important;
+    }
+
     .hero-logo {
       display: none !important;
     }
 
     .hero {
-      padding-top: 28px !important;
+      padding-top: 42px !important;
     }
 
     .mobile-nav {
@@ -54,9 +104,16 @@
         max-height: 50px !important;
       }
 
+      .logo-intro {
+        min-height: calc(100svh - 74px) !important;
+      }
+
+      .intro-badge-logo {
+        width: min(680px, 58vw) !important;
+      }
+
       .hero-logo {
-        display: block !important;
-        width: min(170px, 34vw) !important;
+        display: none !important;
       }
     }
   `;
