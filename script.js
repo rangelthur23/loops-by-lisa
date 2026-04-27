@@ -1,18 +1,63 @@
 (() => {
   const style = document.createElement('style');
   style.textContent = `
-    .header-inner { min-height: 82px !important; padding-top: 4px !important; padding-bottom: 4px !important; }
-    .site-header .brand-image-link { width: 78px !important; height: 78px !important; flex: 0 0 78px !important; overflow: visible !important; }
-    .site-header .brand-logo { width: 78px !important; max-width: 78px !important; height: 78px !important; max-height: 78px !important; object-fit: contain !important; }
-    .hero-logo { display: none !important; }
-    .hero { padding-top: 28px !important; }
-    .mobile-nav { padding: 4px 32px 18px !important; }
-    .mobile-nav a { font-size: 1.15rem !important; padding: 12px 0 !important; }
+    .header-inner {
+      min-height: 68px !important;
+      padding-top: 8px !important;
+      padding-bottom: 8px !important;
+      align-items: center !important;
+    }
+
+    .site-header .header-brand {
+      width: auto !important;
+      height: auto !important;
+      flex: 0 0 auto !important;
+      overflow: visible !important;
+      display: inline-flex !important;
+      align-items: center !important;
+    }
+
+    .site-header .header-wordmark {
+      width: 174px !important;
+      max-width: 48vw !important;
+      height: auto !important;
+      max-height: 42px !important;
+      object-fit: contain !important;
+      display: block !important;
+    }
+
+    .hero-logo {
+      display: none !important;
+    }
+
+    .hero {
+      padding-top: 28px !important;
+    }
+
+    .mobile-nav {
+      padding: 4px 32px 18px !important;
+    }
+
+    .mobile-nav a {
+      font-size: 1.05rem !important;
+      padding: 12px 0 !important;
+    }
+
     @media (min-width: 861px) {
-      .header-inner { min-height: 76px !important; }
-      .site-header .brand-image-link { width: 72px !important; height: 72px !important; flex-basis: 72px !important; }
-      .site-header .brand-logo { width: 72px !important; max-width: 72px !important; height: 72px !important; max-height: 72px !important; }
-      .hero-logo { display: block !important; width: min(170px, 34vw) !important; }
+      .header-inner {
+        min-height: 74px !important;
+      }
+
+      .site-header .header-wordmark {
+        width: 220px !important;
+        max-width: 220px !important;
+        max-height: 50px !important;
+      }
+
+      .hero-logo {
+        display: block !important;
+        width: min(170px, 34vw) !important;
+      }
     }
   `;
   document.head.appendChild(style);
