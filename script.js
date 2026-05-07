@@ -15,6 +15,11 @@
     .gallery-thumb { overflow: hidden !important; background: #fbf6ed !important; }
     .gallery-thumb img { width: 100% !important; height: 100% !important; display: block !important; object-fit: cover !important; }
     .gallery-card h3 { text-wrap: balance !important; }
+    .gallery-cta { margin-top: 42px !important; display: flex !important; justify-content: center !important; }
+    .gallery-cta .button-primary { text-align: center !important; }
+    @media (max-width: 640px) {
+      .gallery-cta { margin-top: 34px !important; padding-left: 4px !important; padding-right: 4px !important; }
+    }
     @media (min-width: 861px) {
       .header-inner { min-height: 74px !important; }
       .site-header .header-wordmark { width: 220px !important; max-width: 220px !important; max-height: 50px !important; }
