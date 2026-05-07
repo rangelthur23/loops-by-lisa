@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Loops by Lisa creates custom handcrafted bracelets, keychains, lanyards, dog collars, decorations, and braided cord keepsakes made with beads and charms." />
+  <meta name="description" content="Loops by Lisa creates custom handcrafted bracelets, keychains, lanyards, earrings, pen toppers, tee holders, zipper pulls, and braided cord keepsakes made with beads and charms." />
   <title>Loops by Lisa | Handcrafted Loops, Braids, and Keepsakes</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -16,9 +16,9 @@
         <img class="brand-logo header-wordmark" src="assets/logo/loops-by-lisa-header-wordmark.svg" alt="Loops by Lisa" />
       </a>
       <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#gallery">Gallery</a>
         <a href="#story">Story</a>
         <a href="#craftsmanship">Craftsmanship</a>
-        <a href="#gallery">Gallery</a>
         <a href="#inquire">Inquire</a>
       </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">
@@ -27,9 +27,9 @@
       </button>
     </div>
     <nav id="mobile-menu" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#gallery">Gallery</a>
       <a href="#story">Story</a>
       <a href="#craftsmanship">Craftsmanship</a>
-      <a href="#gallery">Gallery</a>
       <a href="#inquire">Inquire</a>
     </nav>
   </header>
@@ -41,21 +41,27 @@
       </div>
     </section>
 
-    <section id="story" class="hero section-soft">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <img class="hero-logo" src="assets/logo/loops-by-lisa-logo-browser-safe-transparent.svg" alt="Loops by Lisa" />
+    <section id="gallery" class="gallery section-soft">
+      <div class="container">
+        <div class="section-heading">
           <p class="eyebrow">Custom bracelets, keychains, lanyards, and more</p>
-          <h1>Handcrafted loops, braids, and keepsakes.</h1>
-          <div class="gold-rule" aria-hidden="true"><span></span></div>
-          <p class="lead">Every piece is thoughtfully handmade by Lisa to reflect your story, your style, and the little things that matter. From bracelets and keychains to lanyards, dog collars, decorations, and more, each creation is made with care and a whole lot of heart.</p>
-          <a class="button-primary" href="#inquire">Inquire About a Custom Piece</a>
+          <h1>Handmade pieces with cord, beads, and charms.</h1>
+          <p>Loops by Lisa creates custom braided and beaded pieces made by hand. Browse the categories below, then reach out to start a custom order.</p>
         </div>
-        <div class="hero-art photo-placeholder" role="img" aria-label="Placeholder for a featured photo of Lisa's handcrafted braided items">
-          <div>
-            <strong>Featured Lisa-made photo</strong>
-            <span>Add a real product photo here</span>
-          </div>
+        <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
+        <div class="gallery-cta">
+          <a class="button-primary" href="#inquire">Contact Lisa About a Custom Piece</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="hero section-soft">
+      <div class="container hero-grid hero-brief">
+        <div class="hero-copy">
+          <p class="eyebrow">Handmade with heart</p>
+          <h2>Thoughtful details. Personal style. Made one piece at a time.</h2>
+          <div class="gold-rule" aria-hidden="true"><span></span></div>
+          <p class="lead">Every piece is thoughtfully handmade by Lisa to reflect your story, your style, and the little things that matter.</p>
         </div>
       </div>
     </section>
@@ -98,17 +104,6 @@
       </div>
     </section>
 
-    <section id="gallery" class="gallery section-soft">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Gallery</p>
-          <h2>Lisa’s handcrafted work</h2>
-          <p>Replace these cards with real photos as pieces are finished and photographed.</p>
-        </div>
-        <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
-      </div>
-    </section>
-
     <section id="inquire" class="inquire section">
       <div class="container inquire-grid">
         <div class="inquire-copy">
@@ -132,8 +127,10 @@
               <option>Bracelet</option>
               <option>Keychain</option>
               <option>Lanyard</option>
-              <option>Dog collar</option>
-              <option>Decoration</option>
+              <option>Earrings</option>
+              <option>Pen topper</option>
+              <option>Tee holder</option>
+              <option>Zipper pull</option>
               <option>Other custom piece</option>
             </select>
           </label>
